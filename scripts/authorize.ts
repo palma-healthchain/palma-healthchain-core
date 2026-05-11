@@ -2,7 +2,7 @@ import { ethers } from "hardhat";
 
 async function main() {
   const [deployer] = await ethers.getSigners();
-  const contractAddress = "0x77706C1771a7e6C47eBCADDbc5A2e284B0Df51a4";
+  const contractAddress = "0xEEd6b1262380e63b184D56E588118d8990A6a35B";
   const contract = await ethers.getContractAt("HealthChainCore", contractAddress);
 
   console.log("Authorizing deployer as test issuer...");

@@ -135,9 +135,9 @@ MIT — see [LICENSE](LICENSE)
 
 | Contract | Address | Explorer |
 |---|---|---|
-| `HealthChainCore.sol` | `0x77706C1771a7e6C47eBCADDbc5A2e284B0Df51a4` | [View on Snowtrace](https://testnet.snowtrace.io/address/0x77706C1771a7e6C47eBCADDbc5A2e284B0Df51a4) |
+| `HealthChainCore.sol` | `0xEEd6b1262380e63b184D56E588118d8990A6a35B` | [View on Snowtrace](https://testnet.snowtrace.io/address/0xEEd6b1262380e63b184D56E588118d8990A6a35B) |
 
-**Deployer/Owner:** `0xBB262b7C5E151Ad6188B313b8657Dc5c3039a8f1`  
+**Deployer/Owner:** `0x847b2c9d75609e1DE14624e78C6B4D5F49DbF9cB`  
 **Deployed:** 2026-05-11  
 **Demo:** All 7 testnet success criteria passed (Whitepaper Section 9.1)
 
