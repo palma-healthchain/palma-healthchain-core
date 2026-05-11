@@ -128,3 +128,17 @@ MIT — see [LICENSE](LICENSE)
 - [`palma-healthchain/palma-schema`](https://github.com/palma-healthchain/palma-schema) — credential type registry
 - [`palma-healthchain/palmaai-pipeline`](https://github.com/palma-healthchain/palmaai-pipeline) — FHIR-to-credential pipeline
 - [`palma-healthchain/palma-whitepaper`](https://github.com/palma-healthchain/palma-whitepaper) — technical whitepaper
+
+## Deployed Contracts
+
+### Avalanche Fuji Testnet (Chain ID: 43113)
+
+| Contract | Address | Explorer |
+|---|---|---|
+| `HealthChainCore.sol` | `0x77706C1771a7e6C47eBCADDbc5A2e284B0Df51a4` | [View on Snowtrace](https://testnet.snowtrace.io/address/0x77706C1771a7e6C47eBCADDbc5A2e284B0Df51a4) |
+
+**Deployer/Owner:** `0xBB262b7C5E151Ad6188B313b8657Dc5c3039a8f1`  
+**Deployed:** 2026-05-11  
+**Demo:** All 7 testnet success criteria passed (Whitepaper Section 9.1)
+
+> Contract is unaudited and deployed for testing purposes only.
