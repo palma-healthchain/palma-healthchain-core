@@ -1,0 +1,13 @@
+{
+  "network": "fuji",
+  "chainId": 43113,
+  "contractName": "HealthChainCore",
+  "contractAddress": "0x77706C1771a7e6C47eBCADDbc5A2e284B0Df51a4",
+  "deployTxHash": "0xdc7235b09a51c7a3ad5b91ae6214c9e5bc1b3fcdc35b9c7de48a96956ea09bc2",
+  "deployerAddress": "0xBB262b7C5E151Ad6188B313b8657Dc5c3039a8f1",
+  "ownerAddress": "0xBB262b7C5E151Ad6188B313b8657Dc5c3039a8f1",
+  "blockNumber": 55249686,
+  "timestamp": "2026-05-11T16:09:21.369Z",
+  "contractVersion": "0.1.0",
+  "schemaVersion": 1
+}

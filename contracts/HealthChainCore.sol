@@ -448,19 +448,17 @@ contract HealthChainCore {
         if (records.length == 0) return (false, 0, false);
 
         // Find most recent non-revoked anchor
-        AnchorRecord storage target;
-        bool found = false;
+        uint256 targetIdx = type(uint256).max;
         for (uint256 i = records.length; i > 0; i--) {
             if (!records[i - 1].revoked) {
-                target = records[i - 1];
-                found = true;
+                targetIdx = i - 1;
                 break;
             }
         }
-        if (!found) return (false, 0, true);
+        if (targetIdx == type(uint256).max) return (false, 0, true);
 
-        bool proofValid = _verifyMerkleProof(proof, target.merkleRoot, leaf);
-        return (proofValid, target.timestamp, false);
+        bool proofValid = _verifyMerkleProof(proof, records[targetIdx].merkleRoot, leaf);
+        return (proofValid, records[targetIdx].timestamp, false);
     }
 
     /**

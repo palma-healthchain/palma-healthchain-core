@@ -1,0 +1,31 @@
+{
+  "criteria": [
+    {
+      "criterion": "Credential issuance and anchoring",
+      "status": "PASS"
+    },
+    {
+      "criterion": "Selective disclosure verification",
+      "status": "PASS"
+    },
+    {
+      "criterion": "Tampered proof rejection",
+      "status": "PASS"
+    },
+    {
+      "criterion": "Credential set update (root rotation)",
+      "status": "PASS"
+    },
+    {
+      "criterion": "Revocation enforcement",
+      "status": "PASS"
+    },
+    {
+      "criterion": "Re-issuance after revocation",
+      "status": "PASS"
+    }
+  ],
+  "contract": "0x77706C1771a7e6C47eBCADDbc5A2e284B0Df51a4",
+  "network": "fuji",
+  "timestamp": "2026-05-11T16:15:02.830Z"
+}
