@@ -183,3 +183,4 @@ All Palma credentials share this W3C VC 2.0 envelope:
 - W3C Bitstring Status List v1.0 for revocation
 - OID4VCI for issuance, OID4VP for presentation
 - SNOMED CT primary coding + CVX secondary for Immunization
+
